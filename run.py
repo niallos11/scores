@@ -12,8 +12,15 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('scores')
 
-scores = SHEET.worksheet('scores')
+def get_scores_data():
+    """
+    Get name and team input from the user.
+    """
+    name_str = input("What is  your name: ")
+    print(f"Your name is {name_str}")
 
-data = scores.get_all_values()
+    team_str = input("What is  your team you support: ")
+    print(f"Your team is {team_str}")
 
-print(data) 
+
+get_scores_data()
