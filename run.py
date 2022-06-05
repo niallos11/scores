@@ -16,10 +16,10 @@ def get_scores_data():
     """
     Get name and team input from the user.
     """
-    name_str = input("What is  your name: ")
+    name_str = input("What is  your name::\n")
     print(f"Your name is {name_str}")
 
-    team_str = input("What is  your team you support: ")
+    team_str = input("What is  your team you support::\n")
     print(f"Your team is {team_str}")
 
 
