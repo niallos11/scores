@@ -16,6 +16,22 @@ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('scores')
 
 
+def main_menu():
+    print("1. Add Scores")
+    print("2. View Scores")
+    print("3. Quit")
+    selection = int(input("Enter choice:"))
+    if selection == 1:
+        get_scores_data()
+    elif selection == 2:
+        view_scores_data()
+    elif selection == 3:
+        exit()
+    else:
+        print("Invalid choice. Enter 1-3")
+        main_menu()
+
+
 def get_scores_data():
     """
     Get name and team input from the user.
@@ -34,3 +50,7 @@ try:
     print(f"Your score is {score_str}")
 except (SyntaxError, ValueError):
     print("You did not enter a score")
+
+def view_scores_data():
+    print("this shows the score data")
+main_menu()
