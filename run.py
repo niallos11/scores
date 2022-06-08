@@ -1,13 +1,9 @@
-# import pyfiglet module
-from google.oauth2.service_account import Credentials
-from termcolor import colored
 import gspread
+from google.oauth2.service_account import Credentials
 import pyfiglet
 
-result = pyfiglet.figlet_format("SCORES") 
+result = pyfiglet.figlet_format("SCORES")
 print(result)
-print(colored("Check your score", 'green'))
-
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
     "https://www.googleapis.com/auth/drive.file",
