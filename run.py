@@ -26,6 +26,7 @@ def main_menu():
     elif selection == 2:
         view_scores_data()
     elif selection == 3:
+        print("Goodbye")
         exit()
     else:
         print("Invalid choice. Enter 1-3")
