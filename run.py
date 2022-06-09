@@ -1,6 +1,7 @@
 import gspread
 from google.oauth2.service_account import Credentials
 import pyfiglet
+import os
 
 result = pyfiglet.figlet_format("SCORES")
 print(result)
@@ -34,10 +35,13 @@ def main_menu():
 
 
 def view_scores_data():
+    clear = lambda: os.system('clear')
+    clear()
     scores = SHEET.worksheet('scores')
     data = scores.get_all_values()
     print(data)
-
+    anykey=input("Enter any key to return to main menu")
+    main_menu()
 
 def get_scores_data():
     """
