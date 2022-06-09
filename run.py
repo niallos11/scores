@@ -67,24 +67,32 @@ def validate_data(values):
 
     return True
 
-    name_str = input("What is your name:\n")
-    print(f"Your name is {name_str}")
 
-    team_str = input("What team are you on:\n")
-    print(f"Your team is {team_str}")
+def update_worksheet(data, worksheet):
+    """
+    Receives a list of integers to be inserted into a worksheet
+    Update the relevant worksheet with the data provided
+    """
+    print(f"Updating {worksheet} worksheet...\n")
+    worksheet_to_update = SHEET.worksheet(worksheet)
+    worksheet_to_update.append_row(data)
+    print(f"{worksheet} worksheet updated successfully\n")
+    main_menu()
+    main()
 
 
-get_scores_data()
-
-try:
-    score_str = int(input("Enter a score:\n"))
-    print(f"Your score is {score_str}")
-except (SyntaxError, ValueError):
-    print("You did not enter a score")
+def main():
+    """
+    Run all program functions
+    """
+    data = get_scores_data()
+    scores_data = [int(num) for num in data]
+    update_worksheet(scores_data, "scores")
 
 
 def view_scores_data():
-    print("this will show the score data")
+    print("Will display data")
 
 
 main_menu()
+main()
