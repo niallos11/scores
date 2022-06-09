@@ -32,6 +32,12 @@ def main_menu():
         main_menu()
 
 
+def view_scores_data():
+    scores = SHEET.worksheet('scores')
+    data = scores.get_all_values()
+    print(data)
+
+
 def get_scores_data():
     """
     Get scores figures input from the user.
@@ -88,6 +94,7 @@ def main():
     data = get_scores_data()
     scores_data = [int(num) for num in data]
     update_worksheet(scores_data, "scores")
+
 
 main()
 main_menu()
