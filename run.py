@@ -39,7 +39,7 @@ def get_scores_data():
     """
     while True:
 
-        data_str = input("Enter your data here:\n")
+        data_str = input("Enter your score here:\n")
 
         scores_data = data_str.split(",")
 
@@ -89,10 +89,5 @@ def main():
     scores_data = [int(num) for num in data]
     update_worksheet(scores_data, "scores")
 
-
-def view_scores_data():
-    print("Will display data")
-
-
-main_menu()
 main()
+main_menu()
