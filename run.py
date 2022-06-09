@@ -1,7 +1,6 @@
 import gspread
 from google.oauth2.service_account import Credentials
 import pyfiglet
-import os
 
 result = pyfiglet.figlet_format("SCORES")
 print(result)
@@ -17,31 +16,28 @@ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('scores')
 
 
-def main_menu():
+def main():
     print("1. Add Scores")
     print("2. View Scores")
     print("3. Quit")
-    selection = int(input("Enter choice:"))
-    if selection == 1:
-        get_scores_data()
-    elif selection == 2:
+    selection = input("Enter choice:")
+    if selection == "1":
+        update()
+    elif selection == "2":
         view_scores_data()
-    elif selection == 3:
+    elif selection == "3":
         print("Goodbye")
         exit()
     else:
         print("Invalid choice. Enter 1-3")
-        main_menu()
+    main()
 
 
 def view_scores_data():
-    clear = lambda: os.system('clear')
-    clear()
     scores = SHEET.worksheet('scores')
     data = scores.get_all_values()
     print(data)
-    anykey=input("Enter any key to return to main menu")
-    main_menu()
+
 
 def get_scores_data():
     """
@@ -88,11 +84,9 @@ def update_worksheet(data, worksheet):
     worksheet_to_update = SHEET.worksheet(worksheet)
     worksheet_to_update.append_row(data)
     print(f"{worksheet} worksheet updated successfully\n")
-    main_menu()
-    main()
 
 
-def main():
+def update():
     """
     Run all program functions
     """
@@ -102,4 +96,3 @@ def main():
 
 
 main()
-main_menu()
