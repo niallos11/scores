@@ -6,6 +6,10 @@ Main menu is prompted when starting program.
 
 ![image](https://user-images.githubusercontent.com/5288061/173103565-ed6fd652-6295-41b4-a3b8-159dd43190f1.png)
 
+- figlet ASCII font - to make terminal look less boring.
+
+![image](https://user-images.githubusercontent.com/5288061/173122747-d1352c54-a817-4fd5-bfa8-012b2d654256.png)
+
 ### Menu Features
 
 - __Add Scores__ Select 1 to Add score to spreatsheet
