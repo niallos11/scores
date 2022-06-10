@@ -1,7 +1,7 @@
+"""modules for Python API for googlesheets & figlet for asci font"""
 import gspread
-from google.oauth2.service_account import Credentials
 import pyfiglet
-
+from google.oauth2.service_account import Credentials
 result = pyfiglet.figlet_format("SCORES")
 print(result)
 SCOPE = [
