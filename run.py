@@ -57,7 +57,7 @@ def get_scores_data():
         scores_data = data_str.split(",")
 
         if validate_data(scores_data):
-            print("Data is valid! Enter again to proceed!")
+            print("Data is valid!")
             break
 
     return scores_data
