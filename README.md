@@ -15,17 +15,17 @@ Main menu is prompted when starting program.
 
 ### Menu Features
 
-- __Add Scores__ Select 1 to Add score to spreatsheet
+- __Add Scores__ Select 1 to Add score to spreatsheet.
 
 ![image](https://user-images.githubusercontent.com/5288061/173109088-98047a88-8f44-4fef-9cf3-c31a1bc9ee69.png)
 
 
 
-- __View Scores__ Select 2 to view score added spreatsheet
+- __View Scores__ Select 2 to view score added spreatsheet.
 
 ![image](https://user-images.githubusercontent.com/5288061/173109333-f0fc9860-0938-4236-9701-f1139d29fb79.png)
 
-- __Quit__ Select 3 to exit program
+- __Quit__ Select 3 to exit program.
 
 ![image](https://user-images.githubusercontent.com/5288061/173109451-83dd276a-7269-4e10-8daf-7bd9d24f0915.png)
 
@@ -40,9 +40,14 @@ Main menu requires you to enter number selection 1-3. Entering any other number 
 
 Not entering a number will result in a invalid error and keep looping until entered.
 
+![image](https://user-images.githubusercontent.com/5288061/173144685-a93f4e66-c37c-4fec-b94e-2c5b787722d3.png)
+
+Will get invalid data if you enter more than one value.
+
+
 ### Features Left to Implement
 
-- Add input data such as player name and teams
+- Add input data such as player name and teams.
 
 ## Testing 
 
@@ -58,7 +63,7 @@ Needed to add newline at end of file.
 - No errors were returned when using PEP8online.com
 
 ### Unfixed Bugs
-- No known bugs
+- No known bugs.
 
 ## Deployment
 
