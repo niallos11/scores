@@ -68,12 +68,13 @@ Needed to add newline at end of file.
 - The project was deployed using Code Institute mock terminal for Herkoku.
 
 - Steps for deployment:
-- Fork or clone this repository
-- Create a new Heroku app
-- Set the buildbacks to Python and NodeJS in that order 
-- set port 8000
-- Link the Heroku app to the repository
-- Click on Deploy 
+- Fork or clone this repository.
+- Create a new Heroku app.
+- Set the buildbacks to Python and NodeJS in that order.
+- Added cred.json key to Config Vars in Herkoku.
+- Set Config Vars to PORT 8000 in Herkoku.
+- Link the Heroku app to the repository.
+- Click on Deploy. 
 
 The live link can be found here - https://score-py.herokuapp.com/
 
