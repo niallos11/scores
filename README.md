@@ -1,5 +1,8 @@
 # SCORES
-This program is to demonstrate read & writing of scores to a googledoc spreadsheet using python and API
+Is a simple program is to demonstrate writing & reading of scores to a googledoc spreadsheet using Python and googlesheets API.
+This runs on the Code Institute mock terminal on Heroku.
+The program could be used to updated scores the user has achieved to a spreadsheet for a game or team event.
+The main feature of this program is the main menu which allows you to select to add or view scores.
 
 ## Features 
 Main menu is prompted when starting program.
@@ -65,11 +68,11 @@ Needed to add newline at end of file.
 - Fork or clone this repository
 - Create a new Heroku app
 - Set the buildbacks to Python and NodeJS in that order 
+- set port 8000
 - Link the Heroku app to the repository
 - Click on Deploy 
 
 The live link can be found here - https://score-py.herokuapp.com/
 
 ## Credits 
-
 Heavily relied on course content & Love Sandwiches walk through project.
