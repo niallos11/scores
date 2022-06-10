@@ -10,9 +10,18 @@ Main menu is prompted when starting program.
 
 - __Add Scores__ Select 1 to Add score to spreatsheet
 
+![image](https://user-images.githubusercontent.com/5288061/173109088-98047a88-8f44-4fef-9cf3-c31a1bc9ee69.png)
+
+
+
 - __View Scores__ Select 2 to view score added spreatsheet
 
+![image](https://user-images.githubusercontent.com/5288061/173109333-f0fc9860-0938-4236-9701-f1139d29fb79.png)
+
 - __Quit__ Select 3 to exit program
+
+![image](https://user-images.githubusercontent.com/5288061/173109451-83dd276a-7269-4e10-8daf-7bd9d24f0915.png)
+
 
 ### Menu Features
 
