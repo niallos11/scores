@@ -34,6 +34,9 @@ def main():
 
 
 def view_scores_data():
+    """
+    Function To view scores added to worksheet
+    """
     scores = SHEET.worksheet('scores')
     data = scores.get_all_values()
     print(data)
