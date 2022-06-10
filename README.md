@@ -31,9 +31,14 @@ Main menu is prompted when starting program.
 
 ## Testing 
 
-passed the validator
+![image](https://user-images.githubusercontent.com/5288061/173120611-8ccf7304-786f-4207-be47-4fc54bb366e1.png)
+
+Needed to add newline at end of file.
 
 ### Validator Testing 
+
+![image](https://user-images.githubusercontent.com/5288061/173120960-1977ec81-64a0-4213-b72c-49d6f8c3d25d.png)
+
 - PEP8
 - No errors were returned when using PEP8online.com
 
@@ -56,5 +61,3 @@ The live link can be found here - https://score-py.herokuapp.com/
 ## Credits 
 
 Heavily relied on course content & Love Sandwiches walk through project.
-
-### Content 
