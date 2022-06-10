@@ -1,31 +1,51 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SCORES
+This program is to demonstrate read & writing of scores to a googledoc spreadsheet using python and API
 
-Welcome Niall,
+## Features 
+Main menu is prompted when starting program.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+![image](https://user-images.githubusercontent.com/5288061/173103565-ed6fd652-6295-41b4-a3b8-159dd43190f1.png)
 
-## Reminders
+### Menu Features
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+- __Add Scores__ Select 1 to Add score to spreatsheet
 
-## Creating the Heroku app
+- __View Scores__ Select 2 to view score added spreatsheet
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- __Quit__ Select 3 to exit program
 
-1. `heroku/python`
-2. `heroku/nodejs`
+### Menu Features
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+### Features Left to Implement
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+- Add input data such as player name and teams
 
-Connect your GitHub repository and deploy as normal.
+## Testing 
 
-## Constraints
+passed the validator
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+### Validator Testing 
+- PEP8
+- No errors were returned when using PEP8online.com
 
------
-Happy coding!
+### Unfixed Bugs
+- No known bugs
+
+## Deployment
+
+- The project was deployed using Code Institute mock terminal for Herkoku.
+
+- Steps for deployment:
+- Fork or clone this repository
+- Create a new Heroku app
+- Set the buildbacks to Python and NodeJS in that order 
+- Link the Heroku app to the repository
+- Click on Deploy 
+
+The live link can be found here - https://score-py.herokuapp.com/
+
+## Credits 
+
+Heavily relied on course content & Love Sandwiches walk through project.
+
+### Content 
