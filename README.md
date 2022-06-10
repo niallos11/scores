@@ -23,7 +23,15 @@ Main menu is prompted when starting program.
 ![image](https://user-images.githubusercontent.com/5288061/173109451-83dd276a-7269-4e10-8daf-7bd9d24f0915.png)
 
 
-### Menu Features
+### Error handling
+
+![image](https://user-images.githubusercontent.com/5288061/173121778-60f5aaa2-1981-4636-a676-16e3667d50f4.png)
+
+Main menu requires you to enter number selection 1-3. Entering any other number or character will result in invalid choice and loop back to menu.
+
+![image](https://user-images.githubusercontent.com/5288061/173121479-f08c2063-1397-4d69-a8d2-d9ea5c33951e.png)
+
+Not entering a number will result in a invalid error and keep looping until entered.
 
 ### Features Left to Implement
 
