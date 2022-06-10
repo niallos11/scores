@@ -18,7 +18,7 @@ SHEET = GSPREAD_CLIENT.open('scores')
 
 def main():
     """
-    Main menu with options to select add & view functions
+    Main menu with options to select add & view functions.
     """
     print("1. Add Scores")
     print("2. View Scores")
@@ -38,7 +38,7 @@ def main():
 
 def view_scores_data():
     """
-    Function To view scores added to worksheet
+    Function To view scores added to worksheet.
     """
     scores = SHEET.worksheet('scores')
     data = scores.get_all_values()
@@ -48,7 +48,7 @@ def view_scores_data():
 def get_scores_data():
     """
     Get scores figures input from the user.
-    Run a while loop to collect a valid string of data
+    Run a while loop to collect a valid string of data.
     """
     while True:
 
@@ -83,8 +83,8 @@ def validate_data(values):
 
 def update_worksheet(data, worksheet):
     """
-    Receives a list of integers to be inserted into a worksheet
-    Update the relevant worksheet with the data provided
+    Receives a list of integers to be inserted into a worksheet.
+    Update the relevant worksheet with the data provided.
     """
     print(f"Updating {worksheet} worksheet...\n")
     worksheet_to_update = SHEET.worksheet(worksheet)
@@ -94,7 +94,7 @@ def update_worksheet(data, worksheet):
 
 def update():
     """
-    Run all program functions
+    Run all program functions.
     """
     data = get_scores_data()
     scores_data = [int(num) for num in data]
