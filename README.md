@@ -1,7 +1,7 @@
 # SCORES
 Is a simple program is to demonstrate writing & reading of scores to a googledoc spreadsheet using Python and googlesheets API.
 This runs on the Code Institute mock terminal on Heroku.
-The program could be used to updated scores the user has achieved to a spreadsheet for a game or team event.
+The program could  be used to updated scores the user has achieved to a spreadsheet for a game or team event.
 The main feature of this program is the main menu which allows you to select to add or view scores.
 
 ## Features 
@@ -18,8 +18,6 @@ Main menu is prompted when starting program.
 - __Add Scores__ Select 1 to Add score to spreatsheet.
 
 ![image](https://user-images.githubusercontent.com/5288061/173109088-98047a88-8f44-4fef-9cf3-c31a1bc9ee69.png)
-
-
 
 - __View Scores__ Select 2 to view score added spreatsheet.
 
@@ -60,7 +58,7 @@ Needed to add newline at end of file.
 ![image](https://user-images.githubusercontent.com/5288061/173120960-1977ec81-64a0-4213-b72c-49d6f8c3d25d.png)
 
 - PEP8
-- No errors were returned when using PEP8online.com
+- No errors were returned when using PEP8online.com.
 
 ### Unfixed Bugs
 - No known bugs.
@@ -80,4 +78,4 @@ Needed to add newline at end of file.
 The live link can be found here - https://score-py.herokuapp.com/
 
 ## Credits 
-Heavily relied on course content & Love Sandwiches walk through project.
+Mostly relied on course content & Love Sandwiches walk through project.
