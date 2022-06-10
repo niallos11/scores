@@ -17,6 +17,9 @@ SHEET = GSPREAD_CLIENT.open('scores')
 
 
 def main():
+    """
+    Main menu with options to select add & view functions
+    """
     print("1. Add Scores")
     print("2. View Scores")
     print("3. Quit")
