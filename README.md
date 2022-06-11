@@ -2,7 +2,7 @@
 This is a simple program to demonstrate writing & reading of scores data to a spreadsheet using Python and googlesheets API.
 This runs on the Code Institute mock terminal on Heroku.
 The program could be used to updated scores the user has achieved to a spreadsheet for a game or team event.
-The main feature of this program is the main menu which allows you to select to add or view scores.
+The main feature of this program is the main menu which allows you to select add or view scores.
 
 ## Features 
 Main menu is prompted when starting program.
@@ -61,7 +61,7 @@ Needed to add newline at end of file.
 
 ### Validator Testing 
 
-![image](https://user-images.githubusercontent.com/5288061/173120960-1977ec81-64a0-4213-b72c-49d6f8c3d25d.png)
+![image](https://user-images.githubusercontent.com/5288061/173175877-e0001e5a-2f68-4647-99df-d8836621aa07.png)
 
 - PEP8
 - No errors were returned when using PEP8online.com.
