@@ -1,7 +1,7 @@
 # SCORES
-Is a simple program is to demonstrate writing & reading of scores to a googledoc spreadsheet using Python and googlesheets API.
+This is a simple program to demonstrate writing & reading of scores data to a spreadsheet using Python and googlesheets API.
 This runs on the Code Institute mock terminal on Heroku.
-The program could  be used to updated scores the user has achieved to a spreadsheet for a game or team event.
+The program could be used to updated scores the user has achieved to a spreadsheet for a game or team event.
 The main feature of this program is the main menu which allows you to select to add or view scores.
 
 ## Features 
@@ -18,6 +18,12 @@ Main menu is prompted when starting program.
 - __Add Scores__ Select 1 to Add score to spreatsheet.
 
 ![image](https://user-images.githubusercontent.com/5288061/173109088-98047a88-8f44-4fef-9cf3-c31a1bc9ee69.png)
+
+All scores data is added to google sheet - scores.
+
+![image](https://user-images.githubusercontent.com/5288061/173175320-fc7d19dc-0cd3-4bd0-9e3d-81dcb9094be8.png)
+
+https://docs.google.com/spreadsheets/d/11v3mztB9rtfcYzGZbJNHt-KGYLiYUr5TqRkyG91WUGs/edit?usp=sharing
 
 - __View Scores__ Select 2 to view score added spreatsheet.
 
@@ -68,7 +74,7 @@ Needed to add newline at end of file.
 - The project was deployed using Code Institute mock terminal for Herkoku.
 
 - Steps for deployment:
-- Fork or clone this repository.
+- Fork or clone repository https://github.com/niallos11/scores
 - Create a new Heroku app.
 - Set the buildbacks to Python and NodeJS in that order.
 - Added cred.json key to Config Vars in Herkoku.
